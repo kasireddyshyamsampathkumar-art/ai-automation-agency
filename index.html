@@ -2,216 +2,135 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Automation Agency | Scale Smarter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Automation Agency | Grow Faster with AI</title>
 
-  <meta name="description" content="AI Automation Agency helping businesses automate sales, marketing & operations using AI." />
+  <!-- SEO -->
+  <meta name="description" content="AI Automation Agency helping businesses grow using AI chatbots, automation, CRM integrations and lead generation." />
+  <meta name="keywords" content="AI Automation, WhatsApp Chatbot, Business Automation, AI Agency India" />
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
   <style>
-    :root {
-      --primary:#6366f1;
-      --secondary:#22c55e;
-      --dark:#0f172a;
-      --light:#f8fafc;
-      --gray:#94a3b8;
-    }
-
-    * {
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:'Inter', sans-serif;
-    }
-
     body {
-      background:var(--dark);
-      color:var(--light);
-      line-height:1.6;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
     }
-
-    a {
-      color:inherit;
-      text-decoration:none;
-    }
-
     header {
-      min-height:100vh;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      padding:40px 20px;
-      background:linear-gradient(120deg,#0f172a,#020617);
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #6366f1, #22c55e);
     }
-
     header h1 {
-      font-size:clamp(2.2rem,6vw,3.5rem);
-      margin-bottom:15px;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
-
     header p {
-      max-width:700px;
-      margin:auto;
-      color:var(--gray);
-      font-size:1.05rem;
+      font-size: 1.1rem;
+      opacity: 0.95;
     }
-
-    .btn {
-      display:inline-block;
-      margin:12px;
-      padding:14px 28px;
-      border-radius:30px;
-      background:var(--primary);
-      color:white;
-      font-weight:600;
-      transition:0.3s;
-    }
-
-    .btn.secondary {
-      background:transparent;
-      border:1px solid var(--primary);
-    }
-
-    .btn:hover {
-      transform:translateY(-2px);
-      opacity:0.9;
-    }
-
     section {
-      padding:80px 20px;
-      max-width:1100px;
-      margin:auto;
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-
     h2 {
-      text-align:center;
-      margin-bottom:50px;
-      font-size:2.2rem;
+      color: #22c55e;
+      margin-bottom: 20px;
     }
-
-    .grid {
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:25px;
+    ul {
+      padding-left: 20px;
     }
-
-    .card {
-      background:#020617;
-      padding:30px;
-      border-radius:16px;
-      border:1px solid #1e293b;
-      transition:0.3s;
+    li {
+      margin-bottom: 10px;
     }
-
-    .card:hover {
-      transform:translateY(-5px);
-      border-color:var(--primary);
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 14px 26px;
+      background: #22c55e;
+      color: #0f172a;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
     }
-
-    .card h3 {
-      margin-bottom:10px;
+    .btn.secondary {
+      background: #6366f1;
+      color: #fff;
+      margin-left: 10px;
     }
-
-    .card p {
-      color:var(--gray);
-      font-size:0.95rem;
-    }
-
-    .contact-box {
-      text-align:center;
-      background:#020617;
-      padding:40px;
-      border-radius:20px;
-      border:1px solid #1e293b;
-    }
-
-    iframe {
-      width:100%;
-      height:600px;
-      border-radius:16px;
-      border:none;
-      margin-top:30px;
-    }
-
     footer {
-      text-align:center;
-      padding:25px;
-      color:var(--gray);
-      border-top:1px solid #1e293b;
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      width: 56px;
+      height: 56px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 28px;
+      line-height: 56px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      z-index: 1000;
     }
   </style>
 </head>
 
 <body>
 
-<!-- HERO -->
 <header>
-  <div>
-    <h1>AI Automation Agency</h1>
-    <p>
-      We help businesses automate sales, marketing, customer support and operations using powerful AI systems.
-    </p>
-
-    <a href="#contact" class="btn">Book Free Call</a>
-    <a href="#services" class="btn secondary">Our Services</a>
-  </div>
+  <h1>AI Automation Agency 🚀</h1>
+  <p>We help businesses grow faster using AI-powered automation solutions.</p>
+  <a class="btn" href="https://wa.me/916281605670" target="_blank">Chat on WhatsApp</a>
+  <a class="btn secondary" href="https://calendly.com/kasireddyshyamsampathkumar" target="_blank">Book Free Call</a>
 </header>
 
-<!-- SERVICES -->
-<section id="services">
-  <h2>What We Do</h2>
-
-  <div class="grid">
-    <div class="card">
-      <h3>AI Sales Automation</h3>
-      <p>Automated lead capture, follow-ups and CRM integrations.</p>
-    </div>
-
-    <div class="card">
-      <h3>Chatbots & Assistants</h3>
-      <p>WhatsApp, website & Instagram AI chatbots that convert.</p>
-    </div>
-
-    <div class="card">
-      <h3>Marketing Automation</h3>
-      <p>Email, funnels and AI content workflows on autopilot.</p>
-    </div>
-
-    <div class="card">
-      <h3>Custom AI Systems</h3>
-      <p>Tailor-made AI workflows for your business needs.</p>
-    </div>
-  </div>
+<section>
+  <h2>🔥 Services</h2>
+  <ul>
+    <li>AI Chatbots (WhatsApp / Website)</li>
+    <li>Business Process Automation</li>
+    <li>Lead Generation Automation</li>
+    <li>CRM & Tool Integrations</li>
+    <li>Custom AI Solutions</li>
+  </ul>
 </section>
 
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact & Booking</h2>
+<section>
+  <h2>💰 Payments</h2>
+  <p>Advance payments accepted via UPI</p>
+  <p><strong>UPI ID:</strong> RsoOwLkzjUkIBg</p>
+</section>
 
-  <div class="contact-box">
-    <p><strong>Phone / WhatsApp:</strong> 6281605670</p>
-    <p style="margin-top:10px;">
-      <strong>Payment / Reference Code:</strong><br>
-      RsoOwLkzjUkIBg
-    </p>
-
-    <a class="btn" href="https://calendly.com/kasireddyshyamsampathkumar" target="_blank">
-      Schedule on Calendly
-    </a>
-
-    <!-- Calendly Embed -->
-    <iframe 
-      src="https://calendly.com/kasireddyshyamsampathkumar">
-    </iframe>
-  </div>
+<section>
+  <h2>📞 Contact</h2>
+  <p><strong>WhatsApp:</strong> +91 6281605670</p>
+  <p>Free strategy call available</p>
 </section>
 
 <footer>
-  © 2025 AI Automation Agency • Built for Growth 🚀
+  © 2025 AI Automation Agency. Built with ❤️ & deployed on GitHub Pages.
 </footer>
+
+<!-- WhatsApp Floating -->
+<a href="https://wa.me/916281605670?text=Hi%20I%20am%20interested%20in%20AI%20Automation"
+   class="whatsapp-float"
+   target="_blank">💬</a>
 
 </body>
 </html>
+
